@@ -1,0 +1,178 @@
+section{
+    /* display: block; */
+    margin: 10px auto  !important; 
+    /* margin 50px auto bood */
+    border-radius: 10px; 
+    box-shadow: 5px 5px 25px rgb(49, 41, 49);
+    border: 1px solid rgb(21, 20, 20); 
+    background-color: rgb(49, 41, 49) !important;
+  }
+  .container{
+    max-width: 1200px;
+  }
+  .circle{  
+    border: 1px solid rgb(49, 41, 49);
+    border-radius: 50%;
+    display: inline-block;
+    /* padding: 25px; */
+    text-align: center;
+    position: relative; 
+    top: 100px;
+    right: 50px;
+    font-size: 110px;
+    font-weight: lighter;
+    width: 170px !important; 
+    height: 170px !important; 
+  }
+  .leftside {
+    margin-left: -24px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 120px; 
+    height: 100%;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/darksky.jpg") !important;
+  }
+  .rightside {
+    background-color: rgb(49, 41, 49);
+    border-left: 1px solid black;
+  }
+  .first-part{
+    margin: 60px 50px 0 50px;
+  }
+
+  .second-part{
+    position: relative;
+    top: 110px;
+    
+  }
+  .days div{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #ffff ;
+    font-family: 'Indie Flower', cursive;
+    
+  }
+  .days{
+    color: white;
+    font-size:70px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid rgb(49, 41, 49);
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    font-weight: 100;
+   }
+  .khat{
+    top: 130px;
+    position: relative
+  }
+  
+  .searchbox{
+    border: none;
+    background : transparent;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    /* position: relative;
+    top: 150px; */
+    margin: 80px  auto 0;
+    display: block;
+    font-size: 22px;
+  }
+  .sunny{
+    position: relative;
+    right: 230px;
+    top: 120px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    z-index: 1;
+  }
+  .tempConversion{
+    z-index: 2;
+  }
+  .namecity {
+      color: white;
+      text-align: center;
+      /* position: relative;
+      top: 300px; */
+      margin-top: 150px;
+      font-size: 75px;
+      font-family: 'Send Flowers', cursive;
+    }  
+    .active {
+      color: rgb(33, 33, 33);
+      cursor: default;
+    }
+    .active:hover {
+      text-decoration: none;
+    }
+    #mydate{
+      margin-left: 3px;
+    }
+    .textdate{
+      margin: 15px 5px;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: italic;  
+    }
+    #convertforcss{
+      font-size: 25px;
+      margin-left: -73px;
+    }
+    #celsius {
+      text-decoration: none;
+      color: #000;
+    }
+    #celsius:hover {
+      text-decoration: underline;
+    }
+    #faren {
+      text-decoration: none;
+      color: #000;
+
+    }
+    #faren:hover {
+      text-decoration: underline;
+    }
+    #icon{
+      margin: 20px auto 0;
+    }
+    ul{
+      margin-top: -27px;
+      list-style: none;
+      margin-left: -15px;
+    }
+
+      @media (max-width: 576px){
+        .main{
+          flex-direction: column-reverse;
+          justify-items: center;
+        }
+        .main input{
+          width:50%;
+        }
+        .rightside{
+          border-top-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border: none;
+        }
+         .leftside{
+          border-top-left-radius: 0;
+          border-bottom-right-radius: 10px;
+        }
+        .sunny{ 
+          position: relative;
+          left: 5px;
+        
+        }
+        .tuesday{
+          margin-top: 40px;
+        }
+      
+      
+    }
