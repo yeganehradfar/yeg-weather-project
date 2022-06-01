@@ -11,6 +11,47 @@ function formatDate(timestamp) {
      }
     return`${dayss[now.getDay()]} ${hour}:${minute}`;
     }
+
+
+function displayForecast(){
+  let forecastElement =document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let days =["Thu", "Fri","sat","sun"];
+  days.forEach(function(day){
+     forecastHTML = forecastHTML +` <div class="row text-center weather-forecast">
+     <div class="col-2">
+       <h3> sun</h3>
+       <img
+       src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
+       alt=""
+     />
+     <div class="weather-forecast-temperature">
+       <strong>22°</strong> 17°
+     </div>
+      
+     </div>
+
+     </div>`;
+  });
+  forecastHTML= forecastHTML+ `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+  console.log(forecastHTML);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     function showthisweather(response){
        let circle = document.querySelector(".circle");
@@ -71,3 +112,4 @@ function formatDate(timestamp) {
     celsius.addEventListener("click",convertc);
     
     search("tehran");
+    displayForecast();
