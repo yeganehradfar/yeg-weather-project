@@ -49,24 +49,12 @@ section{
     top: 110px;
     
   }
-  .days div{
-    margin-top: 10px;
-    font-size: 24px;
-    color: #ffff ;
+  /* .days div{
+   
     font-family: 'Indie Flower', cursive;
     
-  }
-  .days{
-    color: white;
-    font-size:70px;
-    text-align: center;
-    margin: 0 auto;
-    border: 1px solid rgb(49, 41, 49);
-    border-radius: 50%;
-    width: 120px; 
-    height: 120px; 
-    font-weight: 100;
-   }
+  } */
+  
   .khat{
     top: 130px;
     position: relative
@@ -147,6 +135,37 @@ section{
       list-style: none;
       margin-left: -15px;
     }
+      .weather-forecast {
+      margin-top: 10px;
+    }
+      .weather-forecast h3 {
+        color: rgb(186, 186, 186);
+        font-size: 27px;
+        font-weight: 400;
+        text-align: center;
+        height: 15px;
+        line-height: 15px;
+        padding-top: 10px;
+      }
+      .weather-forecast img {
+        padding-top: 10px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        height: 68px;
+        width: 68px;
+      }
+      .weather-forecast-temperature {
+        text-align: center;
+        /* color: rgb(135, 135, 135); */
+        font-weight: 400;
+        height: auto;
+        line-height: 10px;
+        margin-top: 16px;
+        font-size: 24px;
+        color: #fff ;
+      }
+      
 
       @media (max-width: 576px){
         .main{
