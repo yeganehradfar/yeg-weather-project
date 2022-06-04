@@ -92,13 +92,13 @@ section{
       font-size: 75px;
       font-family: 'Send Flowers', cursive;
     }  
-    .active {
+    /* .active {
       color: rgb(33, 33, 33);
       cursor: default;
     }
     .active:hover {
-      text-decoration: none;
-    }
+      text-decoration: none; */
+    
     #mydate{
       margin-left: 3px;
     }
@@ -108,10 +108,11 @@ section{
       font-weight: 400;
       font-style: italic;  
     }
-    #convertforcss{
+     .convertforcss{
       font-size: 25px;
       margin-left: -73px;
-    }
+    }  
+    /*
     #celsius {
       text-decoration: none;
       color: #000;
@@ -126,7 +127,7 @@ section{
     }
     #faren:hover {
       text-decoration: underline;
-    }
+    } */
     #icon{
       margin: 20px auto 0;
     }

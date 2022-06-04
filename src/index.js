@@ -104,34 +104,34 @@ function getForecast(coordinates) {
     search(apicity.value)
     
     }
-    function convertToF(event) {
-        event.preventDefault();
-        celsius.classList.remove("active");
-        faren.classList.add("active");
-        let farenntemp = document.querySelector(".circle");
-        let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
-        farenntemp.innerHTML = Math.round(fahrenheiTemperature);
+   //  function convertToF(event) {
+   //      event.preventDefault();
+   //      celsius.classList.remove("active");
+   //      faren.classList.add("active");
+   //      let farenntemp = document.querySelector(".circle");
+   //      let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
+   //      farenntemp.innerHTML = Math.round(fahrenheiTemperature);
         
-    }
-    function convertc(event){
-          event.preventDefault();
-          celsius.classList.add("active");
-          faren.classList.remove("active");
-          let celsiustemp = document.querySelector(".circle");
-          celsiustemp.innerHTML = Math.round(celsiusTemperature);
-    }
+   //  }
+   //  function convertc(event){
+   //        event.preventDefault();
+   //        celsius.classList.add("active");
+   //        faren.classList.remove("active");
+   //        let celsiustemp = document.querySelector(".circle");
+   //        celsiustemp.innerHTML = Math.round(celsiusTemperature);
+   //  }
     
-    let celsiusTemperature = null;
+   //  let celsiusTemperature = null;
     
     
     let searchjs = document.querySelector("#searching");
     searchjs.addEventListener("submit", showcity);
     
-    let faren =document.querySelector("#faren");
-    faren.addEventListener("click",convertToF);
+   //  let faren =document.querySelector("#faren");
+   //  faren.addEventListener("click",convertToF);
     
-    let celsius =document.querySelector("#celsius"); 
-    celsius.addEventListener("click",convertc);
+   //  let celsius =document.querySelector("#celsius"); 
+   //  celsius.addEventListener("click",convertc);
     
     search("tehran");
-   //  displayForecast();
+   
