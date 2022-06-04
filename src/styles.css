@@ -137,8 +137,9 @@ section{
     }
       .weather-forecast {
       margin-top: 10px;
+     
     }
-      .weather-forecast h3 {
+      .weather-forecast-date {
         color: rgb(186, 186, 186);
         font-size: 27px;
         font-weight: 400;
@@ -155,7 +156,7 @@ section{
         height: 68px;
         width: 68px;
       }
-      .weather-forecast-temperature {
+      .weather-forecast-temperatures {
         text-align: center;
         /* color: rgb(135, 135, 135); */
         font-weight: 400;
